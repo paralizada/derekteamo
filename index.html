@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> holiiiiiii</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+        }
+
+        .body__title {
+            color: rgb(255, 108, 140);
+            display: block;
+            width: 100%;
+            font-family: cursive;
+        }
+
+        .body__img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+        }
+
+/* CSS */
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+        .nowat {
+            font-family: 'Comfortaa', sans-serif;
+            padding: 15;
+            margin: 20px;
+            font-weight: 500;
+        }
+        </style>
+<body>
+    <h1 class="body__title">Te amooooo</h1>
+    <img 
+    src="https://i.pinimg.com/originals/85/dc/5f/85dc5f16cc9422c06a29907c10e8b9fa.gif" 
+    alt="TE AMOO" class="body__img"/> 
+
+
+<button class="button-1" role="button" id="b"> yo no iu</button>
+<button class="button-1" role="button" id="a">OKEI SI DALE YO TMB</button>
+
+    <script>
+        const buttonsi = document.getElementById('a');
+        const buttonno = document.getElementById('b');
+
+        const vamoo = () => {
+            alert ('Espero k disfrutes tu regalito mi corazom <3')
+            alert('Te amo miamor, no t vayas nunk')
+            location.href = 'Foto (1).pdf'
+        }
+
+        const LPM = () => {
+            buttonno.style.position = 'absolute';
+            buttonno.style.top = (Math.random() *window.innerHeight) + 'px';
+            buttonno.style.left = (Math.random() *window.innerWidth) + 'px';
+        }
+
+        buttonsi.addEventListener('click', vamoo)
+        buttonno.addEventListener('mouseover', LPM)
+    </script>
+</body>
+</html>
